@@ -1,6 +1,8 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import { Button } from "react-bootstrap";
+import { Document, Page, pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import pdf from "../../assets/Nayanika_Mukherjee.pdf"; // Update the path if necessary
 
 function Type() {

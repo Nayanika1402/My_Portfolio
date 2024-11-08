@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import img1 from "../../assets/projects/college.jpg";
 import img2 from "../../assets/projects/girlscript.png";
-import img3 from "../../assets/projects/status.png";
-import img4 from "../../assets/projects/hacktoberfest.jpeg";
+import img3 from "../../assets/projects/status1.jpeg";
+import img4 from "../../assets/projects/hacktoberfest.png";
 
 const Qualification = () => {
   const [activeIndex, setActiveIndex] = useState(0);

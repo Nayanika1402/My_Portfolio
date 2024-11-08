@@ -36,7 +36,11 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{
+                  maxHeight: "450px",
+                  borderRadius: "50%", // Make the image circular
+                  objectFit: "cover", // Ensures the image fits within the circle
+                }}
               />
             </Col>
           </Row>
