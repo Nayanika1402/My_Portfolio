@@ -13,6 +13,7 @@ function Type() {
           strings: [
             "Front-End Developer",
             "Open Source Contributor",
+            "UI/UX Designer",
             "Back-End Enthusiast",
           ],
           autoStart: true,
