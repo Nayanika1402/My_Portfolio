@@ -6,6 +6,7 @@ import todo from "../../assets/projects/todo.png";
 import rural from "../../assets/projects/rural.png";
 import fixup from "../../assets/projects/fixup.png";
 import care from "../../assets/projects/care.png";
+import globify from "../../assets/projects/globify.png"
 
 function Projects({id}) {
   return (
@@ -69,6 +70,16 @@ function Projects({id}) {
               description="The main aim of CARE is to create a social service platform where users can offer or receive various types of social work!"
               ghLink="https://github.com/Nayanika1402/status-code1"
               demoLink="https://care-nine.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={globify}
+              isBlog={false}
+              title="GLOBIFY"
+              description="Globify is MERN stack platform where we can post our travel blogs and create memories."
+              ghLink="https://github.com/Nayanika1402/status-code1"
+              demoLink="https://github.com/Nayanika1402/Globify"
             />
           </Col>
         </Row>

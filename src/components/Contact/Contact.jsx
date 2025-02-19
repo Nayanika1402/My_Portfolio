@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Contact = () => {
-  const resumeLink = "https://drive.google.com/file/d/1dT7bZAEPHTEHyPXy9dVG-QSlrTjI_q8h/view?usp=sharing"; 
+  const resumeLink = "https://drive.google.com/file/d/1kmiRYszm7qBWZ2-elYRRnyNmyJF5qwDM/view?usp=sharing"; 
 
   return (
     <section
